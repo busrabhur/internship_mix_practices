@@ -81,7 +81,7 @@ public class Main {
                 
                 
            
-                writer.flush();//flush ve close yazmazsan dosyaya yazılmadığını görürsün.
+                writer.flush();//flush ve close yazmazsan dosyaya yazılmaz..
                 writer.close();
                
             }
