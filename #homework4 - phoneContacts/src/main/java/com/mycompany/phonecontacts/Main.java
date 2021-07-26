@@ -45,6 +45,7 @@ public class Main {
                     }
                     if (isFound==false) {
                         System.out.println("Sorguladığınız kişi rehberinizde kayıtlı değil !");
+                        continue;
                     }  
                 }
                 else if(selected.equals("3"){
