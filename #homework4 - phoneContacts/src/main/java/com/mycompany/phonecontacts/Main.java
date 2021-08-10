@@ -45,9 +45,12 @@ public class Main {
                     }
                     if (isFound==false) {
                         System.out.println("Sorguladığınız kişi rehberinizde kayıtlı değil !");
+                        continue;
                     }  
                 }
-                
+                else if(selected.equals("3"){
+                    //silme işlemi başarısız???
+                }
                 else if (selected.equals("4")) {
                     System.out.println("******Kişi Listeniz******");
                     try {
@@ -70,6 +73,7 @@ public class Main {
                 }
                 else if (selected.equals("6")) {
                     System.out.println("Çıkış yapılıyor...");
+                    break;
                 }
                     
                 
